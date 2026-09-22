@@ -8,18 +8,22 @@
 .textoHeader{
     color:#fff;
 }
-.nav-links{
-    display:flex;
-    flex-direction: row;
-    gap: 30px;
-}
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 }
+.nav-links{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
 body{
     background: var(--color1);
     display:flex;
@@ -28,7 +32,8 @@ body{
 }
 header{
     background: var(--color4);
-    display: flex;
+    display:flex;
+    justify-content: space-between;
 }
 .hero{
     color:#fff;
@@ -41,5 +46,19 @@ header{
     align-self: center;
     align-items: center;
 }
+.apresentaçao{
+    background-color: var(--color2);
+    border-radius: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+.imagen-laranja{
+    width: 120px;
+    height: auto;
+    display:flex;
+}
+
+
+
 
 so sei que nada sei
