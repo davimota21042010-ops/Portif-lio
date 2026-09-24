@@ -5,6 +5,7 @@
     --color3  :#413b6b ;
     --color4 : #5c65c0 ;
     --color5 : #6f95ff ;
+}
 .textoHeader{
     color:#fff;
 }
@@ -15,14 +16,14 @@
     font-family: "Poppins", sans-serif;
 }
 
-}
+
 .nav-links{
     display:flex;
     flex-direction: row;
     gap: 20px;
     border-radius: 10px;
+    padding-left: 10px;
 }
-
 
 body{
     background: var(--color1);
@@ -32,11 +33,17 @@ body{
 }
 header{
     background: var(--color4);
-    display: flex;
     display:flex;
     justify-content: space-between;
 }
-
-
-
-so sei que nada sei
+.introd{
+    color:#fff;
+    display:flex;
+}
+.introd img{
+    width: 200px;
+    height: auto;
+    display:flex;
+    border-radius: 10PX;
+    margin-right: 10px;
+}
