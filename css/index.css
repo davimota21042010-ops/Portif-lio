@@ -48,14 +48,17 @@ header{
 }
 .apresentaçao{
     background-color: var(--color2);
+    color:#fff;
     border-radius: 10px;
+    font-size: 24px;
     display:flex;
     justify-content: flex-end;
 }
 .imagen-laranja{
-    width: 120px;
+    width: 300px;
     height: auto;
     display:flex;
+    flex-shrink: 2;
 }
 
 
