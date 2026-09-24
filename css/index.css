@@ -5,6 +5,7 @@
     --color3  :#413b6b ;
     --color4 : #5c65c0 ;
     --color5 : #6f95ff ;
+}
 .textoHeader{
     color:#fff;
 }
@@ -15,7 +16,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-}
+
 .nav-links{
     display:flex;
     flex-direction: row;
@@ -52,16 +53,22 @@ header{
     border-radius: 10px;
     font-size: 24px;
     display:flex;
-    justify-content: flex-end;
+   justify-content: space-between;
+   align-items: center;
+    margin: 20px;
+    width: 80vw;
 }
 .imagen-laranja{
-    width: 300px;
+    width: 300px
     height: auto;
     display:flex;
     flex-shrink: 2;
 }
-
-
+.apresentaçao section{
+    border: 2px solid red;
+}
+.apresentaçao section:first-child {
+    flex: 1;}
 
 
 so sei que nada sei
