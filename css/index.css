@@ -50,13 +50,13 @@ header{
 }
 .apresentaçao{
     color:#fff;
-    font-size: clamp(16px,2vw,40px);
+    font-size: clamp(24px,1.2vw,96px);
 
     display:flex;
    align-items: stretch;
    align-self: center;
-   gap: 30px;
 
+   gap: 30px;
    margin: 20px;
     width: 80vw;
 }
@@ -64,21 +64,22 @@ header{
     background-color: var(--color2);
     border-radius: 10px;
     padding: 10px;
-    flex:1;
 
-     flex: 1;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .imagen-laranja {
     width: 100%;
     height: 100%;
-    object-fit: contain;
     border-radius: 10px;
 }
+section:first-child {
+    flex: 3;
+}
 
-.apresentaçao section p{
-    margin: 10px;
+section:last-child {
+    flex: 1;
 }
