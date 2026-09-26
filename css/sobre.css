@@ -36,14 +36,34 @@ header{
     display:flex;
     justify-content: space-between;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .introd{
     color:#fff;
     display:flex;
+    background-color: var(--color5);
+    width: 20vw;
+    border-radius: 10PX;
+    margin: 10px;
+   
+    flex-flow:row wrap;
+
+    align-items: stretch;
+    
+    
+}
+
+
+
+.introd div{
+    align-items: stretch;
 }
 .introd img{
-    width: 200px;
-    height: auto;
-    display:flex;
+    height: 90%;   
+    width: 90%;
+    object-fit: cover;
     border-radius: 10PX;
     margin-right: 10px;
 }
