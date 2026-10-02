@@ -16,7 +16,7 @@ main section{
     border-radius: 10PX;
     margin: 22px;
    
-     transition: transform 0.25s ease;
+    transition: transform 0.25s ease;
 }
 main section:hover{
      transform: scale(1.08)
