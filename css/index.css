@@ -52,6 +52,8 @@ main h1{
 
 .intro p{
     line-height: 1.6;
+    font-size: 22px;
+
 }
 
 .intro img{
@@ -136,7 +138,7 @@ main h1{
     display: none;
 
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.6;
 }
 
@@ -178,7 +180,10 @@ main h1{
     background-color: var(--color3);
     padding: 30px;
 }
-
+.projetos p{
+    font-size: 18px;
+    line-height: 1.6;
+}
 .projetos .essesite{
     background-color: var(--color4);
     border-radius: 10px;
@@ -254,6 +259,8 @@ main h1{
 .atual p{
     text-align: center;
     padding: 15px;
+    font-size: 22px;
+    line-height: 1.6;
 }
 
 .atual img{
