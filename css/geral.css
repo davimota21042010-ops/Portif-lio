@@ -11,8 +11,14 @@ seria tao bom se desse pra ter um arquivo css geral...*/
 }
 header{
     background: var(--color4);
+    color:#fff;
     display:flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    margin-right: 20px;
 }
 .textoHeader{
     color:#fff;
@@ -33,9 +39,10 @@ header{
 .nav-links{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     border-radius: 10px;
     padding-left: 10px;
+    font-size: 22px;
 }
 
 body{

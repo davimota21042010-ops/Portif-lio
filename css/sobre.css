@@ -24,7 +24,7 @@ main section{
     transition: transform 0.25s ease;
 }
 main section:hover{
-     transform: scale(1.08)
+     transform: scale(1.16)
 }
 main section div:nth-child(1){
     flex: 1;
@@ -43,12 +43,13 @@ main section img{
     object-fit: cover;
     display: block;
 }
-.ano-0-2 p{
-    font-size: 22px;
+.ano-0-3 div p{
+    font-size: 44px;
     line-height: 1.6;
 }
 .curiosidades ul{
     list-style-type: disc;
     padding-left: 35px;
     margin: 0;
+    font-size: 18px;
 }

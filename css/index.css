@@ -269,3 +269,7 @@ main h1{
     object-fit: cover;
     display: block;
 }
+.gamedev div p{
+    font-size: 32px;
+    line-height: 1.6;
+}
