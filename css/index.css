@@ -30,7 +30,7 @@ main h1{
     margin-bottom: 25px;
 }
 
-
+/*INTRO*/
 .intro{
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@ main h1{
     display: block;
     object-fit: cover;
 }
-
+/*HABILIDADES*/
 .habilidades{
     background-color: var(--color2);
     padding: 30px;
@@ -176,6 +176,25 @@ main h1{
 .habilidades:has(.composicao:hover) .composicao-desc{
     display: block;
 }
+/*FERRAMENTS*/
+.ferramentas{
+    background-color: var(--color2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 60vw;
+}
+
+.ferramentas ul{
+    background-color: var(--color4);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ferramentas li{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+/*PROJETOS*/
 .projetos{
     background-color: var(--color3);
     padding: 30px;
@@ -220,7 +239,7 @@ main h1{
     display: block;
 }
 
-
+/*ATUAL*/
 .atual{
     display: flex;
     flex-direction: row;
